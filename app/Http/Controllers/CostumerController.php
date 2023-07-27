@@ -18,6 +18,7 @@ class CostumerController extends Controller
      */
     public function index()
     {
+        // aqui se crea el controlador donde se crea para el pedido de la base de datos
         $costumers = Costumer::paginate();
 
         return view('costumer.index', compact('costumers'))

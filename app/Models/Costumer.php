@@ -20,7 +20,7 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Costumer extends Model
 {
-    
+    // esta es la parte de como se crea la base de datos lo que se solicita al inicar sesion
     static $rules = [
 		'name' => 'required',
 		'email' => 'required',

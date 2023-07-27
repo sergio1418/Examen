@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        //esta es la estructura de la base de datos, los campos con el cual se contara en la tabla
         Schema::create('costumers', function (Blueprint $table) {
      $table->id();
      $table->string('name');
